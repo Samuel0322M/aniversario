@@ -58,3 +58,6 @@ function cerrarSobre(event, boton) {
     }, 500);
 }
 
+document.getElementById("playMusic").addEventListener("click", function () {
+    document.getElementById("musicFrame").src = "https://vocaroo.com/embed/1lwVNM9iHa2H?autoplay=1";
+  });
