@@ -59,5 +59,7 @@ function cerrarSobre(event, boton) {
 }
 
 document.getElementById("playMusic").addEventListener("click", function () {
-    document.getElementById("musicFrame").src = "https://vocaroo.com/embed/1lwVNM9iHa2H?autoplay=1";
+    document.getElementById("musicFrame").src = "https://vocaroo.com/embed/1oaduyCWFnhL?autoplay=1";
   });
+
+  
