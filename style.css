@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Charm', cursive;
+    font-style: italic;
     touch-action: manipulation;
     background: url('crinkled-cardboard-texture.webp') no-repeat center center fixed;
     background-size: cover;
