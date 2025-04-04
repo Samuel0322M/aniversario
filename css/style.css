@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+body {
+    font-family: 'Charm', cursive;
+    font-style: italic;
+    touch-action: manipulation;
+    background: url('/aniversario/images/crinkled-cardboard-texture.webp') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 450px; /* Espacio adicional al final de la página */
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 2rem;
+    animation: aparecer 0.7s ease-in-out;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+}
+
+.tarjeta {
+    position: relative;
+    width: 300px;
+    height: 220px;
+    animation: aparecer 3s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    background: rgba(236, 236, 236, 0.877);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    transform-style: preserve-3d; /* Permite la rotación en 3D */
+}
+
+.tajeta h5 p {
+    color: black;
+}
+
+
+.box-frente img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Hace que la imagen se ajuste sin deformarse */
+    border-radius: 10px; /* Opcional, para que se vea mejor */
+}
+
+.box-detras h5 {
+    margin: 5px 0;
+    font-size: 1.3rem; /* Ajusta el tamaño del subtítulo */
+}
+
+.box-detras p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Evita desbordamiento */
+}
+
+.box-frente, .box-detras {
+    position: absolute;
+    width: 94%;
+    height: 90%;
+    backface-visibility: hidden; /* Oculta la cara trasera cuando gira */
+}
+
+
+.box-frente {
+    transform: rotateY(0);
+}
+
+.box-detras {
+    transform: rotateY(180deg);
+}
+
+.tarjeta.girada {
+    transform: rotateY(180deg);
+}
+
+.carta {
+    border: 8px double #b38b6d; /* Borde doble elegante */
+    padding: 30px;
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 1.8;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.carta p {
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.carta:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+
+.carta h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #b38b6d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.swiper {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.swiper-slide img {
+    width: 100%; /* O un tamaño fijo como 300px */
+    height: 600px; /* Ajusta la altura deseada */
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white; /* Cambia el color si es necesario */
+    font-size: 20px;
+    z-index: 10; /* Asegura que están sobre las imágenes */
+    display: flex; /* Asegura que se muestran */
+}
+
+
+.sobre {
+    width: 75%;
+    margin: 20px auto;
+    position: relative;
+    height: 180px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.sobre img {
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+.sobre .abierto {
+    display: none; /* Oculta el sobre abierto al inicio */
+}
+
+.carta {
+    margin-bottom: 50px;
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 50%;
+    background: white;
+    transform: translateX(-50%) scale(0);
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.carta p{
+    text-align: left;
+}
+.sobre.abierto .carta {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+}
+
+.cerrar-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Charm', cursive;
+    transition: background 0.3s ease-in-out;
+}
+
+.cerrar-btn:hover {
+    background-color: #c9302c;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.8); /* Blanco con transparencia */
+    border: 2px solid #d4af37; /* Borde dorado elegante */
+    padding: 12px 24px;
+    font-size: 12px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif; /* Fuente clásica */
+    color: #5a3e1b; /* Marrón para un toque vintage */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-2px); /* Efecto de levantamiento */
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: translateY(1px); /* Efecto de presión */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  }
