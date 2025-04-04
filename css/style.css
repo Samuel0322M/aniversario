@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 
 body {
-    font-family: 'Charm', cursive;
+    font-family: "Charm", cursive;
+    font-weight: 500;
     font-style: italic;
     touch-action: manipulation;
     background: url('/aniversario/images/crinkled-cardboard-texture.webp') no-repeat center center fixed;
