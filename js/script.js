@@ -58,8 +58,24 @@ function cerrarSobre(event, boton) {
     }, 500);
 }
 
-document.getElementById("playMusic").addEventListener("click", function () {
-    document.getElementById("musicFrame").src = "https://vocaroo.com/embed/1oaduyCWFnhL?autoplay=1";
-  });
+const audio = document.getElementById("backgroundMusic");
+const button = document.getElementById("toggleMusic");
+
+let isPlaying = false;
+
+
+function toggleMusic() {
+    if (!isPlaying) {
+        audio.play();
+        button.textContent = "Pausar música";
+      } else {
+        audio.pause();
+        button.textContent = "Reproducir música";
+      }
+      isPlaying = !isPlaying;
+}
+
+button.addEventListener("click", toggleMusic);
+button.addEventListener("touchstart", toggleMusic);
 
   
