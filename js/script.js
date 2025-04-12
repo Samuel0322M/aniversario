@@ -76,6 +76,6 @@ function toggleMusic() {
 }
 
 button.addEventListener("click", toggleMusic);
-button.addEventListener("touchstart", toggleMusic);
+
 
   
