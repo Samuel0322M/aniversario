@@ -1,127 +1,134 @@
-    const datosTarjeta = [
-        {
-            imagen: "/aniversario/images/semanaantesdenovios.webp",
-            titulo: "Antes del comienzo",
-            texto:
-                "Recuerdo este dia hoy con cariño, fue el dia que marco el antes y el despues en nuestra relacion, salida la cual hoy agradezco que haya sucedido porque significo que hoy estamos juntos.",
-        },
-        {
-            imagen: "/aniversario/images/noviosalfin.webp",
-            titulo: "22 de junio",
-            texto:
-                "22 de junio fue el gran dia, tan grande fue que ni una foto juntos, solo encontre eso como evidencia, recuerdo que ese dia no me lo creia y tarde varios dias en asimilar que te volviste mi novia aunque estaba feliz eso es innegable.",
-        },
-        {
-            imagen: "/aniversario/images/semanadespues.webp",
-            titulo: "Julio 6",
-            texto:
-                "Fue nuestra primer cita oficial, recuerdo haber ido a tu casa y presentarme como tu novio bastante nervioso las cosas como son pero estaba contento de poderme mostrar a tu familia como tu novio y apenas empezaba a asimilar que ya somos novios.",
-        },
-        {
-            imagen: "/aniversario/images/almuerzojuntos.webp",
-            titulo: "Salida de la u",
-            texto:
-                "Recuerdo este dia cuando fui a recogerte en la u lo cual se sentia un poco extraño, almorzaste el arroz mixto y conoci un poco mas de ti y de yumbo ya que estaba muy nervioso para estar en tu casa.",
-        },
-        {
-            imagen: "/aniversario/images/cocinandote.webp",
-            titulo: "Cita en mi casa",
-            texto:
-                "fue por los dias donde mi madre estaba con mi hermana los cuales aprovechamos muy bien, fue de las primeras veces que cocinaba algo mas alla de algo normal y encima para alguien mas, pero mas alla de eso fue una compañia en dias solitarios.",
-        },
-        {
-            imagen: "/aniversario/images/juntos7w7.webp",
-            titulo: "First time",
-            texto:
-                "Bueno, fue una experiencia, fue bonito fue novedoso pero aun mas importante fue especial porque fue con alguien que quiero mucho y hoy en dia mas guardo ese dia en mi mente y lo atesoro mucho porque tambien fue un gran paso en la relacion",
-        },
-        {
-            imagen: "/aniversario/images/manilla.webp",
-            titulo: "Nuestro Lazo",
-            texto:
-                "Fue uno de nuestros primeros regalos aunque fuiste tu quien lo compro realmente aun la uso y la guardo tiene un algo que no se que es que me da paz y me recuerda a ti.",
-        },
-        {
-            imagen: "/aniversario/images/11septiembre.webp",
-            titulo: "Tu cumpleaños 11 septiembre",
-            texto:
-                "Bueno, tu primer cumpleaños juntos recuerdo que desde 2 o 3 meses tenia en mente el cuarzo rosa y aunque no pude estar en tu dia como tal especial espero con ansias este e intentar poder acompañarte ese dia.",
-        },
-        {
-            imagen: "/aniversario/images/halloween.webp",
-            titulo: "Me la conviertes en piedra",
-            texto:
-                "Hallowen, fue un dia que no estuvimos juntos pero estabas hermosa, aun recuerdo el dia me hubiese gustado estar contigo y poder acompañarte fue un dia que me dejo reflexionando y de querer estar mas contigo en los dias de celebraciones.",
-        },
-        {
-            imagen: "/aniversario/images/26nov.webp",
-            titulo: "En mitad de fiestas",
-            texto:
-                "No es hallowen ni navidad es noviembre que llego este dia es uno de mis favoritos siento que hicimos muchs cosas ese dia, que nos acercamos mas y nos divertimos mucho juntos que ya empezabamos a estar mas relajados el uno con el otro.",
-        },
-        {
-            imagen: "/aniversario/images/22dic.webp",
-            titulo: "Navidad y mi cumpleaños",
-            texto:
-                "Este fue un dia raro las cosas como son, ya que habia aceptado que era un dia mas que no era importante y oh que equivocado estaba tu cambiaste eso y la verdad ahora pienso en el proximo cumpleaños en hacer algo que se sienta especial junto a ti.",
-        },
-        {
-            imagen: "/aniversario/images/29dic.webp",
-            titulo: "SONICCCCCC",
-            texto:
-                "29 de diciembre me acompañaste a ver sonic 3 uno de mias dias favoritos los cuales atesorare mucho ya que me hizo muy feliz, tambien fue el dia que se te daño la cadena y como no tomamos fotos esta es mi forma de recordarlo",
-        },
-        {
-            imagen: "/aniversario/images/9feb-2.webp",
-            titulo: "9 de febrero",
-            texto:
-                "Fue una salida tranquila, almorzamos juntos estuvimos en el unico hablamos nos reimos nos dimos mimos fue una salida muy bonita y me encanto ese tiempo juntos.",
-        },
-        {
-            imagen: "/aniversario/images/30abril.webp",
-            titulo: "29 de marzo",
-            texto:
-                "Fue el dia que fuimos aurgencia con mi madre fue un recuerdo amargo pero estar contigo lo hizo muy especial ya que estuviste paara mi cuando mas lo necesite y hasta el dia de hoy te agradezco que me hayas acompañado eres una chica maravillosa.",
-        },
-        {
-            imagen: "/aniversario/images/5abril1.webp",
-            titulo: "5 de abril",
-            texto:
-                "Una semana despues de lo sucedido, estabas bastante ocupada con tus trabajos y estesada y aun asi viniste a veme, no niego que me senti mal peo tambien muy feliz que me hayas acompañado",
-        },
-        {
-            imagen: "/aniversario/images/13abil1.webp",
-            titulo: "Tu Primer Te Amo",
-            texto:
-                "Estuvimos juntos el fin de semana y fue el dia 11 que me dijiste tu primer te amo me compraste helado y fuiste muy bonita conmigo, como empezo semana santa pues me fuiste a ver el domingo e hicimos lo que no hicimos el sabado 7w7",
-        },
-        {
-            imagen: "/aniversario/images/18abril4.webp",
-            titulo: "Space Jump",
-            texto:
-                "Tuvimos una salida muy bonita que hicimos de todo, ejercicio, nos reimos tomamos algo, y fue el 18 de abril que te dije mi pime te amo, ya que fue el dia que llore frente a ti.",
-        },
-        {
-            imagen: "/aniversario/images/20abril2.webp",
-            titulo: "Piscinaaa",
-            texto:
-                "Aprovechamos la semana santa y fuimos a piscina, nos divertimos mucho estuvimos juntos todo el dia tenia muchas ganas de ir y de verte en traje de baño y me encanto es uno de mis paseos favoritos.",
-        },
-        {
-            imagen: "/aniversario/images/mayo4.webp",
-            titulo: "Mayo 4",
-            texto:
-                "Fue una semana y fin de semana que pasaron cosas, pues el dia jueves hice la promesa en cambiar y mejorar quedarme callado y lastimarte y si quiero que esta pagina sea momentos felices y bonitos pero para cuando veas esto quiero que mires hacia a tras y veas que si lo cambie.",
-        },
-        {
-            imagen: "/aniversario/images/mayo4-2.webp",
-            titulo: "Mayo 4",
-            texto:
-                "Me diverti mucho el sabado fue muy bonito y divertido viendo fuck news y comiendo juntos, cada dia me haces quererte mas y que seas tu, el domingo nos vimos tambien y estuvimos bien bailar a la gente y me mataste de un susto yendo en moto.",
-        },
-    ];
+const datosTarjeta = [
+  {
+      imagen: "/aniversario/images/semanaantesdenovios.webp",
+      titulo: "Antes del comienzo",
+      texto:
+          "Recuerdo este día con cariño. Fue el día que marcó un antes y un después en nuestra relación. Una salida que hoy agradezco porque significó que estemos juntos.",
+  },
+  {
+      imagen: "/aniversario/images/noviosalfin.webp",
+      titulo: "22 de junio",
+      texto:
+          "El 22 de junio fue el gran día. Tan grande fue que ni una foto juntos; solo encontré eso como evidencia. Recuerdo que ese día no me lo creía y tardé varios días en asimilar que te volviste mi novia. Aunque estaba feliz, eso es innegable.",
+  },
+  {
+      imagen: "/aniversario/images/semanadespues.webp",
+      titulo: "Julio 6",
+      texto:
+          "Fue nuestra primera cita oficial. Recuerdo haber ido a tu casa y presentarme como tu novio, bastante nervioso, las cosas como son. Pero estaba contento de poder mostrarme ante tu familia como tu novio. Apenas empezaba a asimilar que ya somos novios.",
+  },
+  {
+      imagen: "/aniversario/images/almuerzojuntos.webp",
+      titulo: "Salida de la u",
+      texto:
+          "Recuerdo este día cuando fui a recogerte en la U. Se sentía un poco extraño. Almorzaste arroz mixto y conocí un poco más de ti y de Yumbo, ya que estaba muy nervioso para estar en tu casa.",
+  },
+  {
+      imagen: "/aniversario/images/cocinandote.webp",
+      titulo: "Cita en mi casa",
+      texto:
+          "Fue por los días en que mi madre estaba con mi hermana, los cuales aprovechamos muy bien. Fue de las primeras veces que cocinaba algo más allá de lo normal y encima para alguien más. Pero más allá de eso, fue una compañía en días solitarios.",
+  },
+  {
+      imagen: "/aniversario/images/juntos7w7.webp",
+      titulo: "First time",
+      texto:
+          "Bueno, fue una experiencia. Fue bonito, fue novedoso, pero aún más importante: fue especial porque fue contigo, alguien que quiero mucho. Hoy en día lo atesoro porque fue un gran paso en la relación.",
+  },
+  {
+      imagen: "/aniversario/images/manilla.webp",
+      titulo: "Nuestro Lazo",
+      texto:
+          "Fue uno de nuestros primeros regalos, aunque fuiste tú quien lo compró. Aún la uso y la guardo. Tiene un algo que no sé qué es, pero me da paz y me recuerda a ti.",
+  },
+  {
+      imagen: "/aniversario/images/11septiembre.webp",
+      titulo: "Tu cumpleaños 11 septiembre",
+      texto:
+          "Bueno, tu primer cumpleaños juntos. Recuerdo que desde 2 o 3 meses antes tenía en mente el cuarzo rosa. Aunque no pude estar contigo ese día, espero con ansias el próximo para poder acompañarte.",
+  },
+  {
+      imagen: "/aniversario/images/halloween.webp",
+      titulo: "Me la conviertes en piedra",
+      texto:
+          "Halloween. Fue un día en que no estuvimos juntos, pero estabas hermosa. Aún recuerdo ese día. Me hubiese gustado acompañarte. Me dejó reflexionando y con más ganas de estar contigo en celebraciones.",
+  },
+  {
+      imagen: "/aniversario/images/26nov.webp",
+      titulo: "En mitad de fiestas",
+      texto:
+          "No es Halloween ni Navidad, es noviembre. Este día es uno de mis favoritos. Siento que hicimos muchas cosas, que nos acercamos más y nos divertimos mucho. Ya empezábamos a estar más relajados el uno con el otro.",
+  },
+  {
+      imagen: "/aniversario/images/22dic.webp",
+      titulo: "Navidad y mi cumpleaños",
+      texto:
+          "Este fue un día raro, las cosas como son. Ya había aceptado que era un día más, sin importancia, y ¡qué equivocado estaba! Tú cambiaste eso. Ahora pienso en mi próximo cumpleaños como una oportunidad de hacer algo especial contigo.",
+  },
+  {
+      imagen: "/aniversario/images/29dic.webp",
+      titulo: "SONICCCCCC",
+      texto:
+          "El 29 de diciembre me acompañaste a ver Sonic 3. Fue uno de mis días favoritos, que atesoraré mucho porque me hizo muy feliz. También fue el día que se te dañó la cadena, y como no tomamos fotos, esta es mi forma de recordarlo.",
+  },
+  {
+      imagen: "/aniversario/images/9feb-2.webp",
+      titulo: "9 de febrero",
+      texto:
+          "Fue una salida tranquila. Almorzamos juntos, estuvimos en el Único, hablamos, nos reímos y nos dimos mimos. Fue una salida muy bonita y me encantó ese tiempo contigo.",
+  },
+  {
+      imagen: "/aniversario/images/30abril.webp",
+      titulo: "29 de marzo",
+      texto:
+          "Fue el día que fuimos a urgencias con mi madre. Un recuerdo amargo, pero estar contigo lo hizo muy especial. Estuviste para mí cuando más te necesitaba. Hasta el día de hoy te agradezco que me hayas acompañado. Eres una chica maravillosa.",
+  },
+  {
+      imagen: "/aniversario/images/5abril1.webp",
+      titulo: "5 de abril",
+      texto:
+          "Una semana después de lo sucedido, estabas bastante ocupada y estresada con tus trabajos, y aun así viniste a verme. No niego que me sentí mal, pero también muy feliz de que me acompañaras.",
+  },
+  {
+      imagen: "/aniversario/images/13abil1.webp",
+      titulo: "Tu Primer Te Amo",
+      texto:
+          "Estuvimos juntos el fin de semana, y fue el día 11 cuando me dijiste tu primer 'te amo'. Me compraste helado y fuiste muy bonita conmigo. Como empezó Semana Santa, me fuiste a ver el domingo e hicimos lo que no hicimos el sábado 7w7.",
+  },
+  {
+      imagen: "/aniversario/images/18abril4.webp",
+      titulo: "Space Jump",
+      texto:
+          "Tuvimos una salida muy bonita. Hicimos de todo: ejercicio, nos reímos, tomamos algo. Fue el 18 de abril cuando te dije mi primer 'te amo', ya que ese día lloré frente a ti.",
+  },
+  {
+      imagen: "/aniversario/images/20abril2.webp",
+      titulo: "Piscinaaa",
+      texto:
+          "Aprovechamos la Semana Santa y fuimos a la piscina. Nos divertimos mucho y estuvimos juntos todo el día. Tenía muchas ganas de ir y de verte en traje de baño. Me encantó. Es uno de mis paseos favoritos.",
+  },
+  {
+      imagen: "/aniversario/images/mayo4.webp",
+      titulo: "Mayo 4",
+      texto:
+          "Fue una semana y un fin de semana de muchos cambios. El jueves hice la promesa de mejorar, de dejar de callarme y lastimarte. Si ves esto algún día, quiero que mires atrás y veas que sí cambié.",
+  },
+  {
+      imagen: "/aniversario/images/mayo4-2.webp",
+      titulo: "Mayo 4",
+      texto:
+          "Me divertí mucho el sábado. Fue muy bonito ver 'Fuck News' y comer juntos. Cada día me haces quererte más. El domingo también nos vimos, bailamos, y me mataste del susto yendo en moto.",
+  },
+  {
+      imagen: "/aniversario/images/mayo11.webp",
+      titulo: "Mayo 11",
+      texto:
+          "Al escribir esto, siento que eres muchísimo para mí. Me encantó estar contigo ese día, y me alegra que le gustara el regalo a tu mamá. Estuviste muy contenta con cómo te trató la mía. Solo espero seguir cambiando y mejorando para ti.",
+  },
+];
 
-    const rutasImagenes = [
+
+const rutasImagenes = [
         "/aniversario/images/6julio1.webp",
         "/aniversario/images/26nov.webp",
         "/aniversario/images/citaencasa2.webp",
@@ -137,6 +144,7 @@
         "/aniversario/images/videollamad1.webp",
         "/aniversario/images/conmisaco.webp",
         "/aniversario/images/18abril.webp",
+        "/aniversario/images/mayo11-2.webp",
         "/aniversario/images/13abil.webp",
         "/aniversario/images/cocinandote.webp",
         "/aniversario/images/5abril2.webp",
@@ -155,6 +163,7 @@
         "/aniversario/images/22dic.webp",
         "/aniversario/images/20abril4.webp",
         "/aniversario/images/peliconmadre.webp",
+        "/aniversario/images/mayo11-1.webp",    
         "/aniversario/images/18abril3.webp",
         "/aniversario/images/juntos7w7.webp",
         "/aniversario/images/20abril5.webp",
