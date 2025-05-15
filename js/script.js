@@ -1,3 +1,14 @@
+window.addEventListener('load', function() {
+    setTimeout(function() {
+      document.getElementById('loader').style.opacity = '0';
+      
+      setTimeout(function() {
+        document.getElementById('loader').remove();
+      }, 500);
+    }, 1000);
+     });
+
+
 const datosTarjeta = [
   {
       imagen: "/aniversario/images/semanaantesdenovios.webp",
