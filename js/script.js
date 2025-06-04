@@ -136,6 +136,24 @@ const datosTarjeta = [
       texto:
           "Al escribir esto, siento que eres muchísimo para mí. Me encantó estar contigo ese día, y me alegra que le gustara el regalo a tu mamá. Estuviste muy contenta con cómo te trató la mía. Solo espero seguir cambiando y mejorando para ti.",
   },
+  {
+      imagen: "/aniversario/images/mayo-24.webp",
+      titulo: "Mayo 24",
+      texto:
+          "Fuimos al cine con mi mamá a ver una de sus peliculas favoritas se divertio mucho y la pasamos bien, tuvimos ese lugar en vell's lugar que bueno para no volver pero fue divertido y muy bonito como reaccionaste a la situacion, otro gran dia.",
+  },
+    {
+      imagen: "/aniversario/images/mayo-31.webp",
+      titulo: "Mayo 31",
+      texto:
+          "El cumpleaños de tu mamá y de mi suegra fue un dia bonito en el cual todo salio bien, estuvimos juntos hablamos, reimos, pase con tu famlia, socialize, lo se historico me llevo mejor con ellos y dormimos juntos y nunca nos dijeron algo la verdad que fue una noche increible",
+  },
+    {
+      imagen: "/aniversario/images/junio-1.webp",
+      titulo: "Mayo 31",
+      texto:
+          "El after party, se podria decir pues nos despertamos juntos tuvimos el mañanero, desayunamos juntos oscar no me funo por dormir contigo, los borrachos eran muy cansones, pero en general estuvo bien viniste a mi caja rompimos records hiciste tu trabajo y nos dimos mucho cariño.",
+  },
 ];
 
 
@@ -164,12 +182,14 @@ const rutasImagenes = [
         "/aniversario/images/mia.webp",
         "/aniversario/images/20abril2.webp",
         "/aniversario/images/almuerzojuntos.webp",
+        "/aniversario/images/mayo-31.webp",
         "/aniversario/images/gibi2.webp",
         "/aniversario/images/13abil1.webp",
         "/aniversario/images/18abril2.webp",
         "/aniversario/images/20abril3.webp",
         "/aniversario/images/citaencasa.webp",
         "/aniversario/images/5abril3.webp",
+        "/aniversario/images/junio-1.webp",
         "/aniversario/images/paraguas1.webp",
         "/aniversario/images/22dic.webp",
         "/aniversario/images/20abril4.webp",
@@ -178,6 +198,7 @@ const rutasImagenes = [
         "/aniversario/images/18abril3.webp",
         "/aniversario/images/juntos7w7.webp",
         "/aniversario/images/20abril5.webp",
+        "/aniversario/images/mayo-31.webp",
         "/aniversario/images/videollamada3.webp",
         "/aniversario/images/mayo4-1.webp",
         "/aniversario/images/despuesdeldeli.webp",
