@@ -8,6 +8,7 @@ window.addEventListener('load', function() {
     }, 1000);
      });
 
+     confetti();
 
 const datosTarjeta = [
   {
