@@ -8,7 +8,11 @@ window.addEventListener('load', function() {
     }, 1000);
      });
 
-     confetti();
+     confetti({
+              particleCount: 300,
+              spread: 90,
+              origin: { y: 0.6 }
+            });
 
 const datosTarjeta = [
   {
