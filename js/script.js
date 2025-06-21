@@ -155,9 +155,21 @@ const datosTarjeta = [
   },
     {
       imagen: "/aniversario/images/junio-1.webp",
-      titulo: "Mayo 31",
+      titulo: "Junio 1",
       texto:
           "El after party, se podria decir pues nos despertamos juntos tuvimos el mañanero, desayunamos juntos oscar no me funo por dormir contigo, los borrachos eran muy cansones, pero en general estuvo bien viniste a mi caja rompimos records hiciste tu trabajo y nos dimos mucho cariño.",
+  },
+  {
+      imagen: "/aniversario/images/junio7.webp",
+      titulo: "Junio 7",
+      texto:
+          "Una semana despues de la fiesta, fui a visitarte un poco tarde cuando estaba llegando me dijiste que saliste a comprar unas obleas por lo que te espere fuera de tu casa un rato, todos se rieron de mi por estar afuera, estuvimos juntos de forma cariñosa y vimos fuck news. Mente criminal",
+  },
+  {
+      imagen: "/aniversario/images/junio14.webp",
+      titulo: "Junio 14",
+      texto:
+          "Una semana antes del gran dia, fue una tarde muy bonita, estuvimos solos, estuvimos con mucho amor, jugamos reimos nos divertimos en el overcooked comimos helado y se nos paso el tiempo volando y cada vez falta menos para el gran dia.",
   },
 ];
 
@@ -194,6 +206,7 @@ const rutasImagenes = [
         "/aniversario/images/20abril3.webp",
         "/aniversario/images/citaencasa.webp",
         "/aniversario/images/5abril3.webp",
+        "/aniversario/images/hechapormi.webp",
         "/aniversario/images/junio-1.webp",
         "/aniversario/images/paraguas1.webp",
         "/aniversario/images/22dic.webp",
@@ -207,6 +220,7 @@ const rutasImagenes = [
         "/aniversario/images/videollamada3.webp",
         "/aniversario/images/mayo4-1.webp",
         "/aniversario/images/despuesdeldeli.webp",
+        "/aniversario/images/junio14.webp",
         "/aniversario/images/paraguas4.webp",
         "/aniversario/images/gibi1.webp",
         "/aniversario/images/videollamad2.webp",
